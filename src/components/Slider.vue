@@ -56,8 +56,8 @@ export default {
   data() {
     return {
       width: document.documentElement.clientWidth,
-      cards: 1,
-      padding: 0,
+      cards: 3,
+      padding: 60,
     };
   },
   mounted() {
