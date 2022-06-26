@@ -69,13 +69,13 @@ export default {
   methods: {
     getDimensions() {
       this.width = document.documentElement.clientWidth;
-      const tablet = window.matchMedia("(min-width: 1024px)");
-      const laptop = window.matchMedia("(min-width: 1440px)");
+      // const tablet = window.matchMedia("(min-width: 1024px)");
+      // const laptop = window.matchMedia("(min-width: 1440px)");
 
-      if (laptop || this.width >= 1400) {
+      if (this.width >= 1400) {
         this.cards = 3;
         this.padding = 60;
-      } else if (tablet || (this.width >= 1024 && this.width <= 1400)) {
+      } else if (this.width >= 1024 && this.width <= 1400) {
         this.cards = 2;
         this.padding = 60;
       } else if (this.width <= 1023) {
