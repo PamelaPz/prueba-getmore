@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+npm add vue-ssr-carousel
 ```
 
 ### Compiles and hot-reloads for development
