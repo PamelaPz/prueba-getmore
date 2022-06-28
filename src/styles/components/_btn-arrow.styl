@@ -24,15 +24,32 @@
   &-white
     border 1px solid $white
     color $white
-    @media screen and (min-width 1024px)
-      margin 3rem 0
+    transition all .3s ease-out
     .btn-arrow-text
       font-weight 500
+    &:hover
+      background-color rgba($white, .8)
+      box-shadow 0 5px 9px 0 rgba(0, 0, 0, .5)
+      .btn-arrow-text
+        color $txt_black
+      img
+        filter none
+    @media screen and (min-width 1024px)
+      margin 3rem 0
+      
     img
       filter brightness(0) invert(1)
 
   &-dark
     border 1px solid $blue_dark
     color $blue_dark
+    transition all .3s ease-out
     .btn-arrow-text
       font-weight bold
+    &:hover
+      background-color rgba($blue_dark, .8)
+      box-shadow 0 5px 9px 0 rgba(0, 0, 0, .5)
+      .btn-arrow-text
+        color $white
+      img
+        filter brightness(0) invert(1)

@@ -62,6 +62,7 @@
     cursor pointer
     img
       width 100%
+
   .language
     margin 0 4.5rem 0 1rem
     @media screen and (min-width 768px)
@@ -69,6 +70,9 @@
     a
       color $white
       margin 0 .5rem
+      transition all .1s ease-in
+      &:hover
+        font-weight bold
 
 .footer-nav
   display flex
@@ -144,7 +148,27 @@
 .white
   ul
     color $white
+  .menu_show
+    li
+      &:before
+        content ''
+        height 2px
+        width 0
+        background-color $white
+        position absolute
+        bottom -12px
+        transition width .3s ease-out
+      &:hover
+        &:before
+          width 15px
 
 .black
   ul
     color $txt_blue
+  .menu_show
+    li
+      a
+        transition all .2s linear
+      &:hover
+        a
+          font-weight bold

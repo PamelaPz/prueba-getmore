@@ -56,15 +56,25 @@
       <div>
         <navbar color="black" classMode="footer-nav" />
         <div class="social-list">
-          <img src="../assets/imgs/social/icon-linkedin.svg" alt="linkedin" />
-          <img src="../assets/imgs/social/icon-v.svg" alt="v" />
-          <img src="../assets/imgs/social/icon-instagram.svg" alt="instagram" />
-          <img src="../assets/imgs/social/icon-twitter.svg" alt="twitter" />
-          <img src="../assets/imgs/social/icon-facebook.svg" alt="facebook" />
+          <a href="/"
+            ><img src="../assets/imgs/social/icon-linkedin.svg" alt="linkedin"
+          /></a>
+          <a href="/"><img src="../assets/imgs/social/icon-v.svg" alt="v" /></a>
+          <a href="/"
+            ><img
+              src="../assets/imgs/social/icon-instagram.svg"
+              alt="instagram"
+          /></a>
+          <a href="/"
+            ><img src="../assets/imgs/social/icon-twitter.svg" alt="twitter"
+          /></a>
+          <a href="/"
+            ><img src="../assets/imgs/social/icon-facebook.svg" alt="facebook"
+          /></a>
         </div>
       </div>
       <div class="footer-logo">
-        <img src="../assets/imgs/logo.png" alt="logo" />
+        <a href="/"><img src="../assets/imgs/logo.png" alt="logo" /></a>
       </div>
     </footer>
   </div>
